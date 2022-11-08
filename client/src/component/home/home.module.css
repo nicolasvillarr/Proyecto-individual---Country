@@ -1,0 +1,67 @@
+
+.card {
+    background-color: rgba(255, 255, 255, .15); 
+    backdrop-filter: blur(5px);
+    height: 280px;
+    width: 280px; 
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:2%;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.card:hover{
+    border: 1px solid rgb(9, 255, 0);
+    backdrop-filter: blur(0px);
+    transition: 400ms;
+
+}
+.orden {
+    display: inline-flex;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.nav {
+    margin:0px 0px 10px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(102, 102, 102, 0.363);
+    padding: 10px;
+}
+
+.btn {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    cursor: pointer;
+    flex-direction: row-reverse;
+    align-items:flex-start
+}
+
+.btn:hover{
+    transition: 300ms;
+    border: 1px solid rgba(0, 255, 0, 0.226);
+    background-color: rgba(253, 253, 253, 0.014);
+}
+
+.select {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 5px
+}
+    
+
+.btninicio {
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+.btninicio:hover {
+    border: 1px solid rgba(9, 255, 0, 0.575);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}

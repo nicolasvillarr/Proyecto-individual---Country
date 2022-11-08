@@ -1,0 +1,47 @@
+body {
+
+
+
+/* background-image: url(https://www.gstatic.com/earth/social/00_generic_facebook-001.jpg); */
+background-image: url(https://cutewallpaper.org/es/11/planeta-tierra-fondos-de-pantalla/3014418648.jpg);
+background-color: black;
+/* height: 500px;
+height: 600px; */
+/* border-radius: 10% 15%  150%  150% ; */
+background-repeat:no-repeat;
+background-position:  center center;
+}
+
+.cont {
+    background-image: url(https://www.gstatic.com/earth/social/00_generic_facebook-001.jpg);
+    background-color: black;
+    height: 500px;
+    height: 625px;
+    /* border-radius: 10% 15%  150%  150% ; */
+    background-repeat:no-repeat;
+    background-position:  center center;
+}   
+
+.titulo {
+    
+    margin: 40px;
+color: rgba(255, 255, 255, 0.726);
+}
+
+.btn {
+    /* background-color: rgba(255, 255, 255, 0.432); */
+    color:rgb(255, 255, 255);
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 800px;
+
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 500ms;
+    color:rgb(0, 0, 0);
+    /* margin: 100px; */
+
+}
+

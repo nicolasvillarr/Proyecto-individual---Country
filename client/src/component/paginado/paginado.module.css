@@ -1,0 +1,20 @@
+.cont {
+    display: inline;
+}
+
+.btn {
+    height: 30px;
+    width: 30px; 
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 10px 10px 10px;
+    
+}
+
+.btn:hover{
+    transition: 300ms;
+    border: 1px solid rgba(0, 174, 255, 0.473);
+    background-color: rgba(253, 253, 253, 0.014);
+}

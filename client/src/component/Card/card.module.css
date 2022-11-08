@@ -1,0 +1,25 @@
+
+
+.str {
+    color: rgb(0, 0, 0);
+}
+
+
+.err { 
+    
+    background-image: url(https://i.pinimg.com/474x/38/d6/3f/38d63f0e9759b26ae4f3497116205c18.jpg);
+    background-repeat:no-repeat;
+    background-position:  center center;
+    background-color: hsl(181, 69%, 26%);
+    border-radius: 10px;
+    width: 310px;
+    height: 310px;
+}
+.errStr{
+    margin: 20px;
+    color: rgb(255, 0, 0);
+}
+.errbtn{
+    margin: 50px;
+    background-color:rgb(255, 0, 0);
+}

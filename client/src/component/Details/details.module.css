@@ -1,0 +1,46 @@
+.str {
+    color: #292B34;
+    /* color: white; */
+}
+
+.strAct {
+    margin: 15px 15px 15px 15px;
+    color: white;
+}
+
+.cont {
+    margin: 15px 15px 15px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, .15); 
+    backdrop-filter: blur(15px);
+    box-shadow: inset;
+      display: flow-root;
+    justify-content: center;
+    /* width:100%; */
+ /* flex-direction: flex;*/
+ /* width: 500px; */
+    align-items: center;
+    
+}
+
+.contAct {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+}
+
+.act{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px 50px 10px 50px;
+    /* border: 1px solid white; */
+}
+.act:hover{
+    transition: 500ms;
+    border: 1px solid green ;
+    border-radius: 10px;
+}
+
+.sinAct {
+    justify-content: center;
+}
