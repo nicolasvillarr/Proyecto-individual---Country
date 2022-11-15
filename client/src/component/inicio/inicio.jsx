@@ -9,17 +9,12 @@ export default function Inicio() {
     useEffect(()=>{ // estado de vida de un componentes
         dispatch(getCountry())
     },[dispatch])
-    return(
-
-
-            <div>
-        <div className={estilo.cont}>
-              <div>
-           <Link to={'/home'}><h3 className={estilo.btn}> GO! </h3></Link>
-
-            <h1 className={estilo.titulo}> 🌐APPAIS🌐 </h1>
-              </div>
-            </div>
+    return (
+      <div>
+          <h1 className={estilo.titulo}> 🌐APPAIS🌐 </h1>
+          <Link to={"/home"}>
+            <h3 className={estilo.btn}> GO! </h3>
+          </Link>
         </div>
-    )
+    );
 }
