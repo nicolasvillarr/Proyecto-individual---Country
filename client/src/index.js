@@ -7,8 +7,7 @@ import { Provider } from 'react-redux'
 import store from './redux/store/index'
 import axios from 'axios';
 
-
-axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001"
+axios.defaults.baseURL = process.env.REACT_APP_API || "https://pi-country-back-production.up.railway.app"
 
 ReactDOM.render(
   <React.StrictMode>
