@@ -6,7 +6,7 @@ import SearchBar from "../searchBar/searchBar"
 import { filtroAZ, fitlroPopulation, filtroContinent, getActity, getCountry, filtroActivity }  from "../../redux/actions";
 import Paginado from "../paginado/paginado"
 import estilo from './home.module.css'
-
+import earth from "./earth.gif"
 export default function Home() {
 
 const dispatch = useDispatch()
@@ -96,7 +96,7 @@ function handleFiltroAct(e) {
   <div onClick={(e)=>handleRst(e)} className={estilo.inicio}>
   <img
      alt='inicio' 
-     src={imgInicio} 
+     src={earth} 
      width='50px' height='50px'
     />
     <div className={estilo.btninicio}>Inicio</div>
