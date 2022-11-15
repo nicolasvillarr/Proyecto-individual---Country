@@ -4,7 +4,7 @@ import axios from 'axios'
 export function getCountry() {
     return async function (dispatch) {
         try {
-            const country = await axios.get('http://localhost:3001/country')
+            const country = await axios.get('/country')
             dispatch({
                 type: 'GET_COUNTRY',
                 payload: country.data
@@ -18,7 +18,7 @@ export function getCountry() {
 export function searchCountry(name){
     return async function (dispatch) {
         try {
-            const country = await axios.get(`http://localhost:3001/country?name=${name}`)
+            const country = await axios.get(`/country?name=${name}`)
                 dispatch({
                     type: 'SEARCH_COUNTRY',
                     payload: country.data 
@@ -39,7 +39,7 @@ export function countryDetails(id) {
     // console.log(id)
     return async function (dispatch) {
     try {
-            const details = await axios.get(`http://localhost:3001/country/${id}`)
+            const details = await axios.get(`/country/${id}`)
             dispatch({
                 type: 'COUNTRY_DETAILS',
                 payload: details.data        
@@ -53,7 +53,7 @@ export function countryDetails(id) {
 export function createActivity (payload) {
     return async function (dispatch) {
         try {
-            const act = await axios.post('http://localhost:3001/activity', payload)
+            const act = await axios.post('/activity', payload)
             dispatch({
                 type: 'POST_ACTIVITY',
                 payload: act.data
@@ -68,7 +68,7 @@ export function createActivity (payload) {
 export function getActity () {
     return async function (dispatch) {
         try {
-            const getAct = await axios.get('http://localhost:3001/getActivity')
+            const getAct = await axios.get('/getActivity')
             dispatch({
                 type: 'GET_ACTIVITY',
                 payload: getAct.data
